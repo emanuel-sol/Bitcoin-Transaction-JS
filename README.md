@@ -1,22 +1,15 @@
-# HelloWorld
+# Building a Raw Bitcoin Transaction in JavaScript
 
-The code for the first chapter of the book : Blockchain by Example.
-this script creates an ```op_return``` output using bitcoinJs-lib as presented in the book.
+The updated code for the first chapter of the book : Blockchain by Example.
+This script creates an ```op_return``` output using bitcoinJs-lib as presented in the book.
 
 ## instructions : <br>
-**Firstly** : send some bitcoins from a [faucet website](https://testnet.manu.backend.hamburg/faucet) to ```n3CKupfRCJ6Bnmr78mw9eyeszUSkfyHcPy``` <br>
-**Secondly** : run ```node hello.js``` <br><br>
+**First** : Send some bitcoins from a [faucet website](https://testnet.manu.backend.hamburg/faucet) to ```n3CKupfRCJ6Bnmr78mw9eyeszUSkfyHcPy``` <br>
+**Second** : run ```node hello.js``` <br><br>
 ![](https://preview.ibb.co/jckrkp/nodejshello.png)
 
 ## P2SH or P2PKH : <br>
-you can use https://testnet.blockexplorer.com/api/txs/?address=2MsHsi4CHXsaNZSq5krnrpP4WShNgtuRa9U
-to determine online whether the transaction output is a P2SH or P2PKH
-
-![](https://image.ibb.co/gLiBkp/scripttype.png)
-
-
-or by using https://api.blockcypher.com/v1/btc/test3/txs/0791521362528725683caedf998006cf68b1cd817be1694ef0daca265d9b4252?limit=50&includeHex=true
-
+You can use the [blockcypher API](https://www.blockcypher.com/dev/bitcoin/#transaction-api) to determine whether the transaction output is a P2SH or P2PKH. Here is an [example]( https://api.blockcypher.com/v1/btc/test3/txs/0791521362528725683caedf998006cf68b1cd817be1694ef0daca265d9b4252?limit=50&includeHex=true) using our particular output.
 ```
 "outputs": [
     {
