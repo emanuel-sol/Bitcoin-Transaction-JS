@@ -3,7 +3,7 @@
 The updated code for the first chapter of the book : Blockchain by Example.
 This script creates an ```op_return``` output using bitcoinJs-lib as presented in the book.
 
-## instructions : <br>
+## Instructions : <br>
 **First** : Send some bitcoins from a [faucet website](https://testnet.manu.backend.hamburg/faucet) to ```n3CKupfRCJ6Bnmr78mw9eyeszUSkfyHcPy``` <br>
 **Second** : run ```node hello.js``` <br><br>
 ![](https://preview.ibb.co/jckrkp/nodejshello.png)
