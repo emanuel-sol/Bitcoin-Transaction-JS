@@ -1,11 +1,13 @@
 # Building a Raw Bitcoin Transaction in JavaScript
 
-The updated code for the first chapter of the book : Blockchain by Example.
+The updated code for the first chapter of the book : [Blockchain by Example](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781788475686).
 This script creates an ```op_return``` output using bitcoinJs-lib as presented in the book.
 
 ## Instructions : <br>
-**First** : Send some bitcoins from a [faucet website](https://testnet.manu.backend.hamburg/faucet) to ```n3CKupfRCJ6Bnmr78mw9eyeszUSkfyHcPy``` <br>
-**Second** : run ```node hello.js``` <br><br>
+1. Ensure you have [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed
+2. run ```npm install bitcoinjs-lib request request-promise```
+4. Send some bitcoins from a [faucet website](https://testnet.manu.backend.hamburg/faucet) to ```n3CKupfRCJ6Bnmr78mw9eyeszUSkfyHcPy```
+5. run ```node hello.js``` <br><br>
 ![](https://preview.ibb.co/jckrkp/nodejshello.png)
 
 ## P2SH or P2PKH : <br>
